@@ -69,9 +69,7 @@ padding-right: 15px;
 .section {
 padding-top: 120px;
 padding-bottom: 120px;
-
 }
-
 .suptitle {
 margin-bottom: 8px;
 }
@@ -89,8 +87,6 @@ overflow: hidden;
 }
 
 /* ===========================HEADER================ */
-
-
 .header-link:hover,
 .header-link:focus {
 color:var(--color-pressed-state);
@@ -116,7 +112,6 @@ letter-spacing: 0.02em;
 color: var(--color-secondary);
 transition: color var(--transition-dur-time-func);
 display: block;
-padding-bottom: 24px;
  }
 .contact-link {
 font-style: normal;
@@ -125,7 +120,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--color-primary);
 transition: color var(--transition-dur-time-func);
-
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -163,7 +157,6 @@ margin-left: 40px;
 margin-left: auto;
 }
 .page-header {
-padding-top: 24px;
 border-bottom: 1px solid var(--color-border-btn);
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -184,7 +177,10 @@ height: 4px;
 background-color:var(--color-pressed-state);
 border-radius: 2px;
 }
-
+.menu .link {
+padding-top: 24px;
+padding-bottom: 24px;    
+}
 
 /* ===========================/ HEADER /================ */
 

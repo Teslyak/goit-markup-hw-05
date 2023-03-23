@@ -370,7 +370,9 @@ background-color: var(--color-pressed-state);
 /* ============================ / TEAM SECTION /  ============ */
 /* ============================  Customers / ============ */
 .customers-title {
-font-weight: 700;border
+font-weight: 700;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
